@@ -24,7 +24,7 @@ end_date = datetime.date(start_date.year+1,start_date.month,start_date.day)
 
 # to store the digit sums
 digit_sum = []
-for i in range(0,39):
+for i in range(0,39): # stores 38 non-zero numbers because 29th Sept 99 has digit sum 99 and is the max
     digit_sum.append(0)
 
 # calculate and print digit sum per day
